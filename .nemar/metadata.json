@@ -1,0 +1,135 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Matthew W. Self": {},
+    "Judith C. Peters": {},
+    "Jessy K. Possel": {},
+    "Joel Reithler": {},
+    "Rainer Goebel": {},
+    "Peterjan Ris": {},
+    "Danique Jeurissen": {},
+    "Leila Reddy": {},
+    "Steven Claus": {},
+    "Johannes C. Baayen": {},
+    "Pieter R. Roelfsema": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/BRCZY",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1371/journal.pbio.1002420",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000460",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000460",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Neuroscience Campus Amsterdam proof of concept grant"
+    },
+    {
+      "funder_name": "NWO",
+      "award_number": "406-12-072",
+      "award_title": "OnderzoeksTalent"
+    },
+    {
+      "funder_name": "NWO",
+      "award_number": "433-09-208",
+      "award_title": "Brain and Cognition"
+    },
+    {
+      "funder_name": "NWO",
+      "award_number": "823-02-010",
+      "award_title": "ALW"
+    },
+    {
+      "funder_name": "EU FP7",
+      "award_number": "PITN-GA-2011-290011",
+      "award_title": "Marie-Curie"
+    },
+    {
+      "funder_name": "ERC",
+      "award_number": "339490",
+      "award_title": "Advanced grant"
+    },
+    {
+      "funder_name": "ERC",
+      "award_number": "269853",
+      "award_title": "Advanced grant"
+    },
+    {
+      "funder_name": "EU FP7",
+      "award_number": "604102",
+      "award_title": "HBP"
+    },
+    {
+      "funder_name": "Neuroscience Campus Amsterdam",
+      "award_title": "Proof of concept grant"
+    }
+  ],
+  "title": "Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "208 MB (22 files)"
+  ],
+  "formats": [
+    ".docx",
+    ".eeg",
+    ".json",
+    ".mat",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Stimulus-locked epochs of multi-unit activity (MUA), thresholded MUA and local field potentials recorded from two microwires in human early visual cortex (V2/V3) of one epilepsy patient. The data cover seven visual experiments: receptive field mapping, orientation, spatial frequency, contrast and size tuning, contextual modulation, and curve tracing. This is a BIDS iEEG derivative repackaging of the Open Science Framework deposit accompanying Self et al. 2016.",
+  "methods_description": "Microwires (40 um platinum-iridium) on a depth electrode were recorded with a NeuraLynx HS-9 head-stage at 32.5 kHz and re-referenced to the average of other microwires. LFP (1-200 Hz), MUA envelope (500 Hz-5 kHz) and thresholded MUA were derived at about 930 Hz and epoched around stimulus onset. Visual stimuli were shown on an LCD with fixation requirements, and eye position was tracked with an EyeLink.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "multi-unit activity"
+    },
+    {
+      "term": "local field potentials"
+    },
+    {
+      "term": "Visual Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014793"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "microwire recordings"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "f5b03a36d99e87ae524927a6a47c87645d14171178994a8d717e1b57e8a06e3e"
+}
