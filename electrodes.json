@@ -1,0 +1,21 @@
+{
+  "type": {
+    "Description": "electrode type"
+  },
+  "material": {
+    "Description": "electrode material (paper)"
+  },
+  "impedance": {
+    "Description": "impedance measured post-explantation (paper: 158 kOhm E6, 115 kOhm E7)",
+    "Units": "kOhm"
+  },
+  "hemisphere": {
+    "Description": "hemisphere (paper)"
+  },
+  "region": {
+    "Description": "area as stated by the authors"
+  },
+  "region_source": {
+    "Description": "where the region statement comes from"
+  }
+}

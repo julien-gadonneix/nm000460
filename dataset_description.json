@@ -1,0 +1,59 @@
+{
+  "Name": "Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Matthew W. Self",
+    "Judith C. Peters",
+    "Jessy K. Possel",
+    "Joel Reithler",
+    "Rainer Goebel",
+    "Peterjan Ris",
+    "Danique Jeurissen",
+    "Leila Reddy",
+    "Steven Claus",
+    "Johannes C. Baayen",
+    "Pieter R. Roelfsema"
+  ],
+  "Acknowledgements": "Authors of Self et al. 2016 (PLoS Biol). OSF registration contributor: Matthew Self. Recorded at the epilepsy monitoring unit of the Free University Medical Center (paper).",
+  "HowToAcknowledge": "Cite the paper (Self, M. W., Peters, J. C., Possel, J. K., Reithler, J., Goebel, R., Ris, P., Jeurissen, D., Reddy, L., Claus, S., Baayen, J. C. & Roelfsema, P. R. The Effects of Context and Attention on Spiking Activity in Human Early Visual Cortex. PLoS Biology 14(3): e1002420 (2016). doi:10.1371/journal.pbio.1002420) and the data (Self, M. W. The effects of context and attention on human early visual cortex. Open Science Framework registration, 2016. doi:10.17605/OSF.IO/BRCZY).",
+  "Funding": [
+    "NWO OnderzoeksTalent 406-12-072",
+    "NWO Brain and Cognition 433-09-208",
+    "NWO ALW 823-02-010",
+    "EU FP7 Marie-Curie PITN-GA-2011-290011",
+    "ERC advanced grant 339490",
+    "ERC advanced grant 269853",
+    "EU FP7 HBP 604102",
+    "Neuroscience Campus Amsterdam proof of concept grant"
+  ],
+  "EthicsApprovals": [
+    "The study was approved by the medical ethics board of the Free University Medical Center (protocol 2009/194). The patient gave written informed consent to participate in the study."
+  ],
+  "ReferencesAndLinks": [
+    "Self, M. W., Peters, J. C., Possel, J. K., Reithler, J., Goebel, R., Ris, P., Jeurissen, D., Reddy, L., Claus, S., Baayen, J. C. & Roelfsema, P. R. The Effects of Context and Attention on Spiking Activity in Human Early Visual Cortex. PLoS Biology 14(3): e1002420 (2016). doi:10.1371/journal.pbio.1002420",
+    "https://doi.org/10.1371/journal.pbio.1002420",
+    "https://europepmc.org/article/PMC/PMC4807817",
+    "https://doi.org/10.17605/OSF.IO/BRCZY",
+    "https://osf.io/brczy/"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/BRCZY",
+      "URL": "https://osf.io/brczy/",
+      "Version": "OSF registration of February 2016"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Self et al. preprocessing (data authors)",
+      "Description": "32.5 kHz microwire recordings re-referenced to the average of E0-E4; LFP (930 Hz, 1-200 Hz, 50 Hz sine removed per trial), MUA envelope (500 Hz-5 kHz, rectified, 930 Hz, < 200 Hz) and thresholded MUA; epochs around stimulus onset per experiment, released as MATLAB files on OSF."
+    },
+    {
+      "Name": "NEMAR iEEG repackaging (v3osf_convert.py)",
+      "Version": "1.0.0",
+      "Description": "OSF epochs written per experiment as BrainVision float32, epochs concatenated, one event per epoch at stimulus onset with the DETS trial details; electrodes E6/E7 merged into one run where same-trial pairing was verified; electrodes.tsv without coordinates (area as stated by the paper); sourcedata header dates reduced to month/year. No signal processing."
+    }
+  ]
+}

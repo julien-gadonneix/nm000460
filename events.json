@@ -1,0 +1,84 @@
+{
+  "onset": {
+    "Description": "stimulus onset (t = 0 of the authors' time base TD) of this epoch in the concatenated file",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "0: point event at stimulus onset",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "readable condition built from the DETS columns; for the context task the condition identifiers of the OSF 'Details of the dataset' document (ORI 1 = 45 deg, ORI 2 = 135 deg, Sz 1 = 4 deg, Sz 2 = 6 deg as stated there; the paper's Methods give 60 and 150 deg for the central grating orientations)"
+  },
+  "electrode": {
+    "Description": "microwire (only in per-electrode runs)"
+  },
+  "session_number": {
+    "Description": "recording session number (DETS)"
+  },
+  "check_position_index": {
+    "Description": "index of the checkerboard position in the 11 x 11 grid (DETS)"
+  },
+  "x_position": {
+    "Description": "horizontal checkerboard position (DETS)",
+    "Units": "deg"
+  },
+  "y_position": {
+    "Description": "vertical checkerboard position (DETS)",
+    "Units": "deg"
+  },
+  "orientation_index": {
+    "Description": "index of the grating direction (DETS)"
+  },
+  "orientation": {
+    "Description": "grating orientation/direction (DETS)",
+    "Units": "deg"
+  },
+  "spatial_frequency_index": {
+    "Description": "index of the spatial frequency (DETS)"
+  },
+  "spatial_frequency": {
+    "Description": "grating spatial frequency (DETS; the paper's standard is 1 cycle/degree)"
+  },
+  "contrast_index": {
+    "Description": "index of the contrast (DETS)"
+  },
+  "contrast": {
+    "Description": "grating contrast (DETS; values 1-100; the paper gives contrasts as Michelson contrast in percent, standard 80%)"
+  },
+  "size_index": {
+    "Description": "index of the grating size (DETS)"
+  },
+  "size": {
+    "Description": "grating size (DETS)"
+  },
+  "condition": {
+    "Description": "context condition identifier 1-21 (DETS; see trial_type)"
+  },
+  "difficulty": {
+    "Description": "curve-tracing difficulty 1-3 (DETS)"
+  },
+  "target": {
+    "Description": "1 = target in the RF, 2/3 = distracters (DETS)"
+  },
+  "condition_number": {
+    "Description": "curve-tracing stimulus condition number (DETS)"
+  },
+  "correct": {
+    "Description": "DETS column 'Correct' (OSF document: [Electrode, Difficulty, Target, Session, Condition number, Correct]); values 0, 1 and 2 occur and the document gives no code list"
+  },
+  "epoch_index": {
+    "Description": "0-based index of the epoch in this file"
+  },
+  "epoch_start": {
+    "Description": "time of the epoch's first sample in this file",
+    "Units": "s"
+  },
+  "epoch_end": {
+    "Description": "time of the epoch's last sample in this file",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "0-based sample index of stimulus onset in this file"
+  }
+}

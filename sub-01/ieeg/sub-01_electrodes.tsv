@@ -1,0 +1,3 @@
+name	x	y	z	size	type	material	impedance	hemisphere	region	region_source
+E6	n/a	n/a	n/a	n/a	microwire (side-wire, 40 um diameter)	platinum-iridium	158	L	left occipital, V2/V3 per fMRI retinotopy	Self et al. 2016 (doi:10.1371/journal.pbio.1002420), Fig 1 and Results: estimated microwire location on post-explantation fMRI retinotopic maps; no coordinates released
+E7	n/a	n/a	n/a	n/a	microwire (side-wire, 40 um diameter)	platinum-iridium	115	L	left occipital, V2/V3 per fMRI retinotopy	Self et al. 2016 (doi:10.1371/journal.pbio.1002420), Fig 1 and Results: estimated microwire location on post-explantation fMRI retinotopic maps; no coordinates released

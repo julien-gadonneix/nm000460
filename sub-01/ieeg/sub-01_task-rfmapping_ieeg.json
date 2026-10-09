@@ -1,0 +1,30 @@
+{
+  "TaskName": "rfmapping",
+  "TaskDescription": "Receptive-field mapping: a small black-and-white checkerboard (1 x 1 deg, check size 0.33 deg) flashed at every point of an 11 x 11 deg grid (Self et al. 2016; OSF 'Details of the dataset').",
+  "Instructions": "Fixate the fixation pattern near the top-left of the screen (2-deg window, else the trial was aborted)",
+  "SamplingFrequency": 930.1714285714286,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "AuthorsPreprocessing": {
+      "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "Manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+  "iEEGReference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+  "iEEGGround": "skull screw",
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 2,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 4,
+  "TriggerChannelCount": 0,
+  "RecordingDuration": 727.167035,
+  "RecordingType": "epoched",
+  "EpochLength": 0.600964492,
+  "iEEGPlacementScheme": "clinical stereotactic depth electrodes (15 AdTech electrodes, frameless stereotaxy); one electrode in visual cortex carried a microwire bundle; microwires E6 and E7 in left early visual cortex (V2/V3 by post-explantation fMRI retinotopy)",
+  "iEEGElectrodeGroups": "microwire-bundle: 40-um platinum-iridium side-wires between the macro-contacts of one clinical depth electrode",
+  "ElectricalStimulation": false
+}

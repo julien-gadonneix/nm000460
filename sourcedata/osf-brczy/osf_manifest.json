@@ -1,0 +1,47 @@
+{
+  "source": "OSF registration brczy, folder 'Archive of OSF Storage' (doi:10.17605/OSF.IO/BRCZY), licence CC-By Attribution 4.0 International",
+  "original_files": {
+    "CONTEXT.mat": {
+      "size": 39260390,
+      "md5": "2ad196e11dd5d3389708af3f229e3756"
+    },
+    "SIZEtuning.mat": {
+      "size": 7744008,
+      "md5": "964afaa44691892c4891a71659a3b656"
+    },
+    "Details of the dataset.docx": {
+      "size": 14171,
+      "md5": "77edd6b95ecb24587519cede1b693183"
+    },
+    "CONTRASTtuning.mat": {
+      "size": 10480249,
+      "md5": "e8620ffd7af574a2ce18cd1cc07f52c3"
+    },
+    "ORItuning.mat": {
+      "size": 17782612,
+      "md5": "3a9a1041b96a2ce35298406ecf99e52e"
+    },
+    "RFmapping.mat": {
+      "size": 21621089,
+      "md5": "59af6a1a1c40da9ba65d2facbf7d5283"
+    },
+    "CURVET.mat": {
+      "size": 36467973,
+      "md5": "0fcd0b9fa8171b97d14c565f13c01844"
+    },
+    "SFtuning.mat": {
+      "size": 3270134,
+      "md5": "77b8adf2a44aa5aff1762b569dc34232"
+    }
+  },
+  "changes_in_this_copy": {
+    "CONTEXT.mat": "MAT text header: day -> 01, clock time removed (bytes 116.. unchanged)",
+    "CONTRASTtuning.mat": "MAT text header: day -> 01, clock time removed (bytes 116.. unchanged)",
+    "CURVET.mat": "MAT text header: day -> 01, clock time removed (bytes 116.. unchanged)",
+    "Details of the dataset.docx": "docProps/core.xml created/modified dates: day -> 01, time 00:00:00 (2 fields); text unchanged",
+    "ORItuning.mat": "MAT text header: day -> 01, clock time removed (bytes 116.. unchanged)",
+    "RFmapping.mat": "MAT text header: day -> 01, clock time removed (bytes 116.. unchanged)",
+    "SFtuning.mat": "MAT text header: day -> 01, clock time removed (bytes 116.. unchanged)",
+    "SIZEtuning.mat": "MAT text header: day -> 01, clock time removed (bytes 116.. unchanged)"
+  }
+}

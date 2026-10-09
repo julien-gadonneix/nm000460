@@ -1,0 +1,6 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates were released (the MRI/CT images are available only on request from the Data Access Committee of the Netherlands Institute for Neuroscience). electrodes.tsv gives x/y/z = n/a and the area stated by the paper (left V2/V3 from post-explantation fMRI retinotopy).",
+  "iEEGCoordinateProcessingDescription": "none"
+}

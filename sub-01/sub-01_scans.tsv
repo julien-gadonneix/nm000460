@@ -1,0 +1,8 @@
+filename	acq_time	source_file
+ieeg/sub-01_task-rfmapping_ieeg.vhdr	n/a	sourcedata/osf-brczy/RFmapping.mat
+ieeg/sub-01_task-orientation_ieeg.vhdr	n/a	sourcedata/osf-brczy/ORItuning.mat
+ieeg/sub-01_task-spatialfreq_ieeg.vhdr	n/a	sourcedata/osf-brczy/SFtuning.mat
+ieeg/sub-01_task-contrast_ieeg.vhdr	n/a	sourcedata/osf-brczy/CONTRASTtuning.mat
+ieeg/sub-01_task-size_ieeg.vhdr	n/a	sourcedata/osf-brczy/SIZEtuning.mat
+ieeg/sub-01_task-context_ieeg.vhdr	n/a	sourcedata/osf-brczy/CONTEXT.mat
+ieeg/sub-01_task-curvetracing_ieeg.vhdr	n/a	sourcedata/osf-brczy/CURVET.mat

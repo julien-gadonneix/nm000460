@@ -1,0 +1,28 @@
+{
+  "age": {
+    "Description": "age at implantation as stated in the paper ('a 35-y-old female')",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "sex as stated in the paper",
+    "Levels": {
+      "F": "female",
+      "M": "male"
+    }
+  },
+  "handedness": {
+    "Description": "not reported"
+  },
+  "group": {
+    "Description": "clinical group",
+    "Levels": {
+      "epilepsy": "late-onset epilepsy, intracranial monitoring with depth electrodes"
+    }
+  },
+  "n_depth_electrodes": {
+    "Description": "clinical depth electrodes implanted (paper: 15 AdTech electrodes; five right, nine left hemisphere as stated)"
+  },
+  "microwire_hemisphere": {
+    "Description": "hemisphere of the microwire bundle with E6/E7"
+  }
+}
