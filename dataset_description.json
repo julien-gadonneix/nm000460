@@ -55,5 +55,7 @@
       "Version": "1.0.0",
       "Description": "OSF epochs written per experiment as BrainVision float32, epochs concatenated, one event per epoch at stimulus onset with the DETS trial details; electrodes E6/E7 merged into one run where same-trial pairing was verified; electrodes.tsv without coordinates (area as stated by the paper); sourcedata header dates reduced to month/year. No signal processing."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000460",
+  "Version": "1.0.0"
 }
