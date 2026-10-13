@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",
+  "description": "Stimulus-locked epochs of multi-unit activity (MUA), thresholded MUA, and local field potentials recorded from two microwires in human visual cortex (V2/V3) of a single epilepsy patient. The dataset repackages the Open Science Framework release of Self et al. (2016) into BIDS iEEG format. It covers seven visual experiments: receptive field mapping, orientation, spatial frequency, contrast, size, context, and curve tracing. Together these experiments probe the effects of context and attention on early visual cortex.",
+  "methods_description": "Microwires (40 um platinum-iridium) on a depth electrode were recorded at 32.5 kHz with a NeuraLynx HS-9 head-stage and re-referenced to the average of other microwires. LFP (1-200 Hz), MUA envelope (500 Hz-5 kHz, rectified, low-passed) and thresholded MUA were derived at about 930 Hz and epoched around stimulus onset. Visual stimuli were shown on an LCD laptop screen, with eye position monitored by EyeLink.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Matthew W. Self": {},
     "Judith C. Peters": {},
@@ -14,6 +19,30 @@
     "Johannes C. Baayen": {},
     "Pieter R. Roelfsema": {}
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "multi-unit activity"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "Visual Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014793"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "microwire recording"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.17605/OSF.IO/BRCZY",
@@ -62,13 +91,11 @@
     },
     {
       "funder_name": "ERC",
-      "award_number": "339490",
-      "award_title": "Advanced grant"
+      "award_number": "339490"
     },
     {
       "funder_name": "ERC",
-      "award_number": "269853",
-      "award_title": "Advanced grant"
+      "award_number": "269853"
     },
     {
       "funder_name": "EU FP7",
@@ -80,14 +107,11 @@
       "award_title": "Proof of concept grant"
     }
   ],
-  "title": "Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "208 MB (22 files)"
   ],
@@ -96,40 +120,11 @@
     ".eeg",
     ".json",
     ".mat",
+    ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Stimulus-locked epochs of multi-unit activity (MUA), thresholded MUA and local field potentials recorded from two microwires in human early visual cortex (V2/V3) of one epilepsy patient. The data cover seven visual experiments: receptive field mapping, orientation, spatial frequency, contrast and size tuning, contextual modulation, and curve tracing. This is a BIDS iEEG derivative repackaging of the Open Science Framework deposit accompanying Self et al. 2016.",
-  "methods_description": "Microwires (40 um platinum-iridium) on a depth electrode were recorded with a NeuraLynx HS-9 head-stage at 32.5 kHz and re-referenced to the average of other microwires. LFP (1-200 Hz), MUA envelope (500 Hz-5 kHz) and thresholded MUA were derived at about 930 Hz and epoched around stimulus onset. Visual stimuli were shown on an LCD with fixation requirements, and eye position was tracked with an EyeLink.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "multi-unit activity"
-    },
-    {
-      "term": "local field potentials"
-    },
-    {
-      "term": "Visual Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014793"
-    },
-    {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
-    },
-    {
-      "term": "microwire recordings"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "f5b03a36d99e87ae524927a6a47c87645d14171178994a8d717e1b57e8a06e3e"
+  "source_hash": "159b7945bb72d70270f06f1dcf82fc63785e0bb58487fc559bff5b7ab1270d99"
 }
