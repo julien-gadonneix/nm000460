@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Self-2016-effects-10.1371/journal.pbio.1002420",
+  "title": "Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",
   "description": "Stimulus-locked epochs of spiking activity (multi-unit activity) and local field potentials recorded from two microwires in left early visual cortex (V2/V3) of one epilepsy patient implanted with depth electrodes. Seven visual experiments are included: receptive field mapping, orientation, spatial frequency, contrast and size tuning, contextual modulation, and curve tracing. This is a derivative BIDS repackaging of the OSF registration accompanying Self et al. 2016, with epochs concatenated and no further signal processing.",
   "methods_description": "Microwire recordings (40 um platinum-iridium) were acquired with a NeuraLynx HS-9 head-stage at 32.5 kHz and re-referenced to the average of microwires E0-E4. LFP (1-200 Hz), multi-unit activity envelope (500 Hz-5 kHz) and thresholded MUA were derived and down-sampled to about 930 Hz. Visual stimuli were shown on an LCD screen with fixation enforced via EyeLink eye tracking (1000 Hz). Epochs were cut around stimulus onset.",
   "license": "CC-BY-4.0",
@@ -133,5 +133,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "da9527b1b9d39146ba1221bb2d4a50e6c341b06fbf99fcaba84e66d77fa8a8ed"
+  "source_hash": "8dd0656ad9625df042986986b7d0c2ebf89e4681de1aaaff614b321bcac1892e"
 }
