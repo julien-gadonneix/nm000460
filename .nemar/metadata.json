@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",
-  "description": "Stimulus-locked epochs of spiking activity (multi-unit activity) and local field potentials recorded from two microwires in left early visual cortex (V2/V3) of one epilepsy patient implanted with depth electrodes. Seven visual experiments are included: receptive field mapping, orientation, spatial frequency, contrast and size tuning, contextual modulation, and curve tracing. This is a derivative BIDS repackaging of the OSF registration accompanying Self et al. 2016, with epochs concatenated and no further signal processing.",
-  "methods_description": "Microwire recordings (40 um platinum-iridium) were acquired with a NeuraLynx HS-9 head-stage at 32.5 kHz and re-referenced to the average of microwires E0-E4. LFP (1-200 Hz), multi-unit activity envelope (500 Hz-5 kHz) and thresholded MUA were derived and down-sampled to about 930 Hz. Visual stimuli were shown on an LCD screen with fixation enforced via EyeLink eye tracking (1000 Hz). Epochs were cut around stimulus onset.",
+  "description": "Stimulus-locked epochs of multi-unit activity (MUA) and local field potentials (LFP) recorded from two microwires in human early visual cortex (V2/V3) of a single epilepsy patient. The data cover seven visual experiments: receptive field mapping, orientation, spatial frequency, contrast and size tuning, contextual modulation, and curve tracing. This is a BIDS iEEG derivative repackaging of the OSF deposit accompanying Self et al. 2016.",
+  "methods_description": "Microwire recordings were made at 32.5 kHz with a NeuraLynx HS-9 head-stage and re-referenced to the average of other microwires. LFP (1-200 Hz), MUA envelope (500 Hz-5 kHz) and thresholded MUA were derived at about 930 Hz and epoched around stimulus onset. Visual stimuli were shown on an LCD with fixation enforced by eye tracking (EyeLink, 1000 Hz).",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,10 +24,10 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "local field potentials"
+      "term": "multi-unit activity"
     },
     {
-      "term": "multi-unit activity"
+      "term": "local field potential"
     },
     {
       "term": "Visual Cortex",
@@ -40,12 +40,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "term": "microwire recording"
     },
     {
-      "term": "contextual modulation"
+      "term": "curve tracing"
     }
   ],
   "related_identifiers": [
@@ -107,7 +105,7 @@
     {
       "funder_name": "EU FP7",
       "award_number": "604102",
-      "award_title": "Human Brain Project"
+      "award_title": "HBP"
     },
     {
       "funder_name": "Neuroscience Campus Amsterdam",
