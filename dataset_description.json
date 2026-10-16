@@ -1,5 +1,5 @@
 {
-  "Name": "Self-2016-effects-10.1371/journal.pbio.1002420",
+  "Name": "Spiking activity (MUA) and LFP from two microwires in human V2/V3, one patient, stimulus-locked epochs of 7 visual experiments (Self et al. 2016; derivative)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -57,5 +57,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000460",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
