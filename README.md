@@ -26,9 +26,10 @@ microwires E0-E4 (E5 excluded because of noise). From this the authors made thre
 - **MUAT**: thresholded MUA (MUAt). Channel type MISC.
 The OSF document says MUA and MUAT are not normalised or baseline-corrected; in CURVET.mat (`curvetracing`), however, MUA is
 baseline-subtracted (pre-stimulus mean ~0 per trial, 44% of samples negative). Units, from the paper's S1 Fig: LFP and MUA in
-µV (scale bars of panels A and D; caption D: MUA "has units of microvolts"); MUAT is the spike-density function in Hz (caption H;
-each epoch integrates to a whole spike count). The BrainVision header carries no unit, so MNE reads all channels as µV; MUAT
-values are spikes/s.
+µV (scale bars of panels A and D; caption D: MUA "has units of microvolts"); MUAT is the spike-density function in Hz (caption H:
+spike trains convolved with a Gaussian of integral one; 5641 of 6764 epochs integrate to a whole spike count, the other 1123 have
+spike density within 12 samples of an epoch edge, where the kernel is cut). The BrainVision header carries no unit, so MNE reads
+all channels as µV; MUAT values are spikes/s.
 
 ## Experiments (one task per OSF file)
 Visual stimuli on a laptop LCD (60 Hz, 66 cm). Fixation within 2 deg near the top-left of the screen, else the trial was
